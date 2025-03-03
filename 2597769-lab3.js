@@ -46,4 +46,4 @@ function getMusicTitlesByYear(music){
     return musicByYear
 }
 
-console.log(getMusicTitlesByYear(tracks));
+module.exports = { getMusicTitlesByYear };
